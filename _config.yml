@@ -1,0 +1,50 @@
+# Site settings
+title: 吴迪的博客
+email: waterwolfxyz@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  吴迪的博客
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://blocklife.github.io # the base hostname & protocol for your site
+rss_url: 
+author: Wu Di
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 10
+
+# Social account
+twitter: 
+weibo: 
+github: blocklife
+instagram: 
+linkedin: 
+
+# avatar and Favicon
+avatar: https://ws4.sinaimg.cn/large/006tNc79gy1fplfl5bg2tj30b40b40sm.jpg
+favicon: https://ws4.sinaimg.cn/large/006tNc79gy1fplfl5bg2tj30b40b40sm.jpg
+
+# disqus config
+disqus:
+  shortname: Wu Di
+
+# google analytics config
+ga:
+  id: 
+  url: 
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
